@@ -9,14 +9,16 @@ tasks:
     init: |
       bundle update
       bundle install
-  - name: Run type on strap
+  - name: Run local dev server
     init: bundle install
-    command: bundle exec jekyll serve
+    command: bundle exec jekyll serve --watch --livereload --drafts --unpublished --livereload-ignore ".vscode/*,.gitpod.yml,.github" --incremental
 
-# In case the user is trying to make a pull request, he needs GitLens, which by default is not installed. This code will help us install it.
+# In case the user is trying to make a pull request, they needs GitLens, which by default is not installed. This code will help us install it.
 vscode:
   extensions:
     - eamodio.gitlens
+    - vivaxy.vscode-conventional-commits
+    - akosyakov.gitpod-monitor
 
 # Ports configuration, since Gitpod needs to open Type on Strap on a new tab when the server loads up.
 ports:

@@ -1,14 +1,14 @@
 ---
 layout: page
-title: About
+title: About the Crew
+author: squad
 permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
-tags: [Page]
+tags: [Meta]
 ---
 
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+We're Recap Time Squad (formerly known as [The Pins Team](https://github.com/MadeByThePinsHub)), an open-source software org,
+currently in its one-man operation by
 
-Head over to the [theme's documentation](https://github.io/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
+We're behind different projects including [Verification Process Endpoint](https://gitlab.com/RecapTime/verify) (an project to confirm/verify users the open-source and transparent way and to find any possible alternative accounts), [Community Lores](https://gitlab.com/community-lores) (documentation arc for wikis and docs we maintain/host) and [Gitpodified Workspace Images](https://gitlab.com/gitpodify/gitpodified-workspace-images) (opinionated Gitpod workspace images based on upstream, with additional tools for your needs).
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
- 

@@ -1,8 +1,10 @@
-<!-- Thanks for your PR! -->
-<!-- If the change is not compatible with GitHub page (https://github.com/github/pages-gem) it won't be merged 😢 -->
+<!--
+    Thanks for your patches! Make sure to sign-off your commits in compliance with Linux DCO,
+    Otherwise, your patch will be ignored for copyright reasons.
+---> 
 
 ### Description
-<!-- A brief explanation of what the PR is about -->
+<!-- A brief explanation of what the merge request is about -->
 
 ### Screenshot
-<!-- Don't forget to provide screenshot if you change the layout of the theme -->
+<!-- Don't forget to provide screenshot if you change the layout of the theme, especially for Lighthouse improvements :) -->

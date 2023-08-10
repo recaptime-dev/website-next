@@ -1,23 +1,23 @@
 # For the Icons on the footer of the website
 # For the Share buttons at the end of the articles, use the "social.yml"
 behance:
-bitbucket:
+bitbucket: recaptime-dev
 calendly:
 dribbble:
-facebook:
+facebook: recaptimesquad
 flickr:
-github: sylhare
-gitlab:
+github: recaptime-dev
+gitlab: recaptime-dev
 google-scholar:   # e.g. "WXAAOb0AAAAJ"
 instagram:
 hacker-news:
-keybase:
+keybase: recaptimesquad
 linkedin:
-mail:             # e.g. "sam@mail.com"
+mail: squad@crew.recaptime.eu.org
 map:              # e.g. "34.0886/-118.3191"
-mastodon:         # e.g. "fostodon.org/@sam"
+mastodon: "mastodon.xyz/@RecapTimeSquad"
 matrix:           # e.g. "@sam:matrix.org"
-medium:
+medium: recaptime-dev
 patreon:
 phone:            # e.g. "+11111111111"
 pinterest:
@@ -28,10 +28,10 @@ stack-exchange:   # e.g. "123456789"
 stack-overflow:   # e.g. "123456789"
 steam:
 telegram:
-tumblr:
+tumblr: recaptimesquad
 twitch:
-twitter:
+twitter: recaptime
 vimeo:
-vk:
+vk: recaptime-dev
 wordpress:
 youtube:          # e.g. "UCqECaJ8Gagnn7YCbPEzWH6g"
