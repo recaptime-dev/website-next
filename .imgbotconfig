@@ -1,0 +1,11 @@
+{
+    "schedule": "weekly",
+    "ignoredFiles": [
+        "assets/img/pexel/*",
+        "assets/img/portfolio/*",
+        "assets/feature-img/*"
+    ],
+    "aggressiveCompression": "true"
+    "compressWiki": "true"
+    "minKBReduced": 500
+}
