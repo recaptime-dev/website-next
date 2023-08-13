@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://recaptime.eu.org/"
+url: "https://recaptime.eu.org"
 
 # THEME-SPECIFIC CONFIGURATION
 title: Recap Time Squad
@@ -41,9 +41,10 @@ comments:
 paginate: 5
 paginate_path: "/blog/page:num"
 
-# PORTFOLIO
+# PERMALINKS
+permalink: "/:categories/:year/:month/:day/:title/" # same as use-directory-links flag in mkdocs
 collections:
-  portfolio:
+  projects:
     output: true
     permalink: /:collection/:name
 

@@ -18,6 +18,7 @@ _development_tool/*
 /vendor/
 .jekyll-cache/*
 */.jekyll-cache/*
+public/*
 
 # Theme Gem
 Gemfile.lock
