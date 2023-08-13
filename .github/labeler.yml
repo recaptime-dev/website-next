@@ -1,3 +1,37 @@
+team-profile:
+- "pages/team.md"
+- "_team/*.md"
+- "assets/img/profile/*"
+
+blog-posts:
+- "_drafts/*.md"
+- "_posts/*.md"
+
+github-workflows:
+- ".github/workflows/*.yml"
+
+devenv:
+- ".gitpod.yml"
+- ".devcontainer/*"
+- ".vscode/*.json"
+
+project-showcase:
+- "pages/projects.md"
+- "_porfolio/*.md"
+
+site-layout:
+- "_layouts/**"
+- "_includes/**"
+- "assets/js/**"
+- "assets/css/**"
+- "assets/fonts/**"
+- "assets/data/**"
+- "assets/favicon.ico"
+
+contributing-docs:
+- CONTRIBUTING.md
+- README.md
+
 question:
   - '(?)'
 

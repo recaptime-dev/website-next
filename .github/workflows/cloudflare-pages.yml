@@ -38,7 +38,3 @@ jobs:
           directory: public
           # Optional: Enable this if you want to have GitHub Deployments triggered
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          # Optional: Switch what branch you are publishing to.
-          # By default this will be the branch which triggered this workflow
-          # TODO(chore): Change default branch name to main soon.
-          branch: master
