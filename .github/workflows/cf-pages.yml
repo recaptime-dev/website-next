@@ -2,6 +2,8 @@ name: Cloudflare Pages
 
 on:
   push:
+    branches:
+      - main
 
 env:
   CF_ACCOUNT_ID: 33e6189a4a87f1923e71af8da171e2ed
@@ -13,7 +15,7 @@ jobs:
     permissions:
       contents: read
       deployments: write
-    name: Publish to Cloudflare Pages
+    name: Deploy on main branch
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -36,5 +38,5 @@ jobs:
           accountId: ${{ env.CF_ACCOUNT_ID }}
           projectName: ${{ env.PAGES_PROJECT_NAME}}
           directory: public
-          # Optional: Enable this if you want to have GitHub Deployments triggered
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
