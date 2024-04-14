@@ -1,0 +1,25 @@
+# Our security-related email address
+Contact: mailto:security@recaptime.dev
+# GitLab issue tracker for submiting security-related issues via our advisories repo
+Contact: https://gitlab.com/recaptime-dev/advisories/issues/new
+Contact: mailto:~recaptime-dev/security-ops@lists.sr.ht
+
+# Initially published on 2021-11-23T14:05:27+08:00 by @ajhalili2006 on GitHub
+# Last updated on: 2021-11-23T14:05:27+08:00 by @ajhalili2006
+Expires: 2025-09-30T15:59:00.000Z
+
+# Where to get our PGP keys
+Encryption: https://wiki.recaptime.dev/handbook/security/contacting-security-team#encrypted-communications
+
+# canonical URL of this file, plus in sources
+Canonical: https://recaptime.dev/.well-known/security.txt
+Canonical: https://github.com/recaptime-dev/website-next/raw/main/.well-known/security.txt
+
+# We only speak English, sorry!
+Preferred-Languages: en
+
+# our security policy in an nutshell
+Policy: https://policies.recaptime.dev/security
+
+# We're not an company yet, but we're looking for volunteers.
+Hiring: https://recaptime.dev/join-team

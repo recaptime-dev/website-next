@@ -1,0 +1,40 @@
+name: Cloudflare Pages
+
+on:
+  push:
+
+env:
+  CF_ACCOUNT_ID: 33e6189a4a87f1923e71af8da171e2ed
+  PAGES_PROJECT_NAME: recaptime-dev
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    name: Publish to Cloudflare Pages
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
+        # change this to (see https://github.com/ruby/setup-ruby#versioning):
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3.0"
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      - name: Install
+        run: bundle install
+      - name: Build jekyll site
+        run: bundle exec jekyll build -d public
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_BOT_API_TOKEN }}
+          accountId: ${{ env.CF_ACCOUNT_ID }}
+          projectName: ${{ env.PAGES_PROJECT_NAME}}
+          directory: public
+          # Optional: Enable this if you want to have GitHub Deployments triggered
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}

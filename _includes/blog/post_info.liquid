@@ -1,0 +1,33 @@
+{% assign author = site.data.authors[include.author] %}
+{% assign date = include.date | default: "today" | date: "%B %-d, %Y" %}
+
+<div class="post-info">
+  {%- if author.url -%}<a
+      href="{{ author.url | relative_url }}"
+      target="_blank"
+      rel="noopener">{%- endif -%}
+  {% if author.avatar %}
+    <img
+      alt="Author's avatar"
+      src="{{ author.avatar | relative_url }}"
+      loading="lazy">
+  {% endif %}
+  {%- if author.url -%}</a>{%- endif -%}
+  <p class="meta">
+    {%- if author.url -%}<a
+        href="{{ author.url | relative_url }}"
+        target="_blank"
+        rel="noopener">{%- endif -%}
+    {% if author.name %}
+      {{ author.name }}
+    {%- endif -%}
+    {%- if author.url -%}</a>{%- endif -%}
+    {% assign x = date | date: "%m" | minus: 1 %}
+    on {{ site.data.language.str_months[x] | default: date | date: "%B" }} {{ date | date: "%d, %Y" }}
+  </p>
+</div>
+{%- if author.role == "staff" -%}
+  <p class="label label-purple">staff post</p>
+{%- elsif author.role == "community" -%}
+  <p class="label label-yellow">community post</p>
+{%- endif -%}
