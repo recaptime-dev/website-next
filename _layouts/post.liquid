@@ -1,8 +1,11 @@
 ---
 layout: default
 ---
-<h1>{{page.title}}</h1>
 
-{% include blog/post_info.liquid author=page.author date=page.date %}
+<article>
+  <h1>{{ page.title }}</h1>
 
-{{content}}
+  {% include blog/post_info.liquid author=page.author date=page.date %}
+
+  {{ content }}
+</article>

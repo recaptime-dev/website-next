@@ -4,4 +4,8 @@
 
 .title-padder {
     padding: $title-padding;
-  }
+}
+.label-black:not(g) {
+  color: $white;
+  background-color: $black;
+}

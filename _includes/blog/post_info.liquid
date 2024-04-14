@@ -27,7 +27,9 @@
   </p>
 </div>
 {%- if author.role == "staff" -%}
-  <p class="label label-purple">staff post</p>
+  <p class="label label-purple">staff</p>
 {%- elsif author.role == "community" -%}
-  <p class="label label-yellow">community post</p>
+  <p class="label label-yellow">community</p>
+{%- elsif author.role == "alumni" %}
+  <p class="label label-black">alumni</p>
 {%- endif -%}
