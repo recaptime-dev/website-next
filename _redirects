@@ -1,2 +1,3 @@
 /:yyyy/:mm/:dd/:slug /updates/:yyyy/:mm/:dd/:slug
 /blog /updates
+/keys https://wiki.recaptime.dev/handbook/devops/gpg-keys#publishing-keys
