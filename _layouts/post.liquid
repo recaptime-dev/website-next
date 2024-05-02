@@ -2,10 +2,8 @@
 layout: default
 ---
 
-<article>
-  <h1>{{ page.title }}</h1>
+<h1>{{ page.title }}</h1>
 
-  {% include blog/post_info.liquid author=page.author date=page.date %}
+{% include blog/post_info.liquid author=page.author date=page.date %}
 
-  {{ content }}
-</article>
+{{ content }}

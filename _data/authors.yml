@@ -2,11 +2,14 @@ squad:
   name: Recap Time Squad members
   avatar: "https://avatars.githubusercontent.com/u/55875459?s=256&v=4"
   url: "https://recaptime.dev/about"
+  role: staff
+  twitter: RecapTimeSquad
 ajhalili2006:
   name: "~ajhalili2006"
   avatar: "https://0.gravatar.com/avatar/176d5e1c21771011f19e8215fdb9934c8b94cfbd09abb411c5b6e7f22b583231?size=256"
   url: "https://andreijiroh.xyz"
   role: "staff"
+  twitter: ajhalili2006
 unknown:
   name: Anonymous Writer
   avatar:

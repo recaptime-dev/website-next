@@ -7,6 +7,13 @@ tags:
 - Website Updates
 ---
 
+_**EDIT 2024-04-21**: We switched again to Just The Docs theme with a fresh commit history at [`f116de44`][deploykit-revamp].
+We'll be posting a update regarding that and more soon. Original text goes below._
+
+[deploykit-revamp]: https://github.com/recaptime-dev/website-next/commit/f116de446ad7a7daf2db99eea5941a116e950300
+
+---
+
 Welcome to our revamped website! We're currently migrating some content from our old
 website[^1] as we'll be switching up to Jekyll with the [Type on Strap](https://github.com/sylhare/Type-on-Strap)
 theme behind the scenes. It might take some time before we migrate all content here for obvious reasons, including
